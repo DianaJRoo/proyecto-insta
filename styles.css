@@ -1,8 +1,9 @@
 body{
     text-align: center;
     background-color: black;
-    margin-top: 0px;
+    margin-top: auto;
 }
+
 .box1{
     background-color:white;
 	width: 500px;
@@ -10,8 +11,17 @@ body{
 	margin: auto;
 }
 .box1-header {
-    font-size: 20px;
-    text-align: left;
+    font-size: 15px;
+    margin-top: 2cm;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0cm;
+}
+
+    .icon {
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 0cm;
     }
     .box1-body img {
         width: 500px;
